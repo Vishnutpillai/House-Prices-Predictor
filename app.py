@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import pickle
 
 # Page Config
 st.set_page_config(
@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Load Model
-model = joblib.load("Models/house_price_model.pkl")
+model = pickle.load(open("best_model.pkl", "rb"))
 
 # Header
 st.title("🏠 House Price Prediction App")
