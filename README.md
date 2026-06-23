@@ -275,6 +275,10 @@ linkedin.com/in/vishnu-t-pillai
 
 https://github.com/Vishnutpillai
 
+###App Link
+
+https://house-prices-predictor-2026.streamlit.app/
+
 ---
 
 ## ⭐ If you found this project useful
